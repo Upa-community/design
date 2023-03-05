@@ -1,5 +1,5 @@
 ## APIの仕様  
-1.ユーザー登録
+1.ユーザー登録  
 POST:[http://localhost:8000/api/register](http://localhost:8000/api/register)
 ```
 リクエスト
@@ -23,7 +23,7 @@ POST:[http://localhost:8000/api/register](http://localhost:8000/api/register)
     "error": ""
 }
 ```
-2.ログイン
+2.ログイン  
 POST:[http://localhost:8000/api/login](http://localhost:8000/api/login)
 ```
 リクエスト
@@ -46,7 +46,7 @@ POST:[http://localhost:8000/api/login](http://localhost:8000/api/login)
     }
 }
 ```
-2.地点登録機能
+2.地点登録機能  
 POST:[http://localhost:8000/api/spots_register](http://localhost:8000/api/spots_register)
 ```
 リクエスト
