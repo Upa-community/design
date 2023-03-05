@@ -46,3 +46,19 @@ POST:[http://localhost:8000/api/login](http://localhost:8000/api/login)
     }
 }
 ```
+2.地点登録機能
+POST:[http://localhost:8000/api/spots_register](http://localhost:8000/api/spots_register)
+```
+リクエスト
+{
+    "spots_name" : "京都駅八条口タクシー乗り場",
+    "spots_address" : "京都府京都市下京区東塩小路釜殿町",
+    "spots_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
+}
+```
+```
+レスポンス
+{
+    "message": "Spot registration success!"
+}
+```
