@@ -47,7 +47,7 @@ POST:[http://localhost:8000/api/login](http://localhost:8000/api/login)
 }
 ```
 2.地点登録機能  
-POST:[http://localhost:8000/api/spots_register/{users_id}](http://localhost:8000/api/spots_register/{users_id})
+POST:[http://localhost:8000/api/spots_register/{users_id}](http://localhost:8000/api/spots_register/{usersId})
 ```
 リクエスト
 {
