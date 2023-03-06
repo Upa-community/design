@@ -53,7 +53,7 @@ POST:[http://localhost:8000/api/spots_register/{usersId}](http://localhost:8000/
 {
     "spots_name" : "京都駅八条口タクシー乗り場",
     "spots_address" : "京都府京都市下京区東塩小路釜殿町",
-    "spots_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
+    "spots_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
 }
 ```
 ```
@@ -68,7 +68,7 @@ POST:[http://localhost:8000/api/cameras_register/{spotsId}](http://localhost:800
 リクエスト
 {
     "cameras_name" : "京都駅八条口タクシー乗り場-カメラA",
-    "cameras_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
+    "cameras_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
 }
 ```
 ```
