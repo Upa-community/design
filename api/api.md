@@ -62,3 +62,18 @@ POST:[http://localhost:8000/api/spots_register/{usersId}](http://localhost:8000/
     "message": "Spot registration success!"
 }
 ```
+3.カメラ登録機能  
+POST:[http://localhost:8000/api/cameras_register/{spotsId}](http://localhost:8000/api/cameras_register/{spotsId})
+```
+リクエスト
+{
+    "cameras_name" : "京都駅八条口タクシー乗り場-カメラA",
+    "cameras_url" : "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
+}
+```
+```
+レスポンス
+{
+    "message": "Camera registration success!"
+}
+```
