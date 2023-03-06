@@ -46,7 +46,7 @@ POST:[http://localhost:8000/api/login](http://localhost:8000/api/login)
     }
 }
 ```
-2.地点登録機能  
+4.地点登録機能  
 POST:[http://localhost:8000/api/spots_register/{usersId}](http://localhost:8000/api/spots_register/{usersId})
 ```
 リクエスト
@@ -62,7 +62,7 @@ POST:[http://localhost:8000/api/spots_register/{usersId}](http://localhost:8000/
     "message": "Spot registration success!"
 }
 ```
-3.カメラ登録機能  
+4.カメラ登録機能  
 POST:[http://localhost:8000/api/cameras_register/{spotsId}](http://localhost:8000/api/cameras_register/{spotsId})
 ```
 リクエスト
