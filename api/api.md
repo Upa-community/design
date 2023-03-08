@@ -78,7 +78,7 @@ POST:[http://localhost:8000/api/cameras_register/{spotsId}](http://localhost:800
 }
 ```
 5.情報取得  
-GET:[http://localhost:8000/api/home_data/{userId}](http://localhost:8000/api/home_data/{usersId})
+GET:[http://localhost:8000/api/home_data/{usersId}](http://localhost:8000/api/home_data/{usersId})
 ```
 レスポンス
 [
