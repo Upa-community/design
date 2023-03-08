@@ -94,7 +94,7 @@ GET:[http://localhost:8000/api/home_data/{usersId}](http://localhost:8000/api/ho
         "spots_day_count" : [15, 12, 0, 6, 15, 15, 4, 6, 9, 14, 3, 7, 0, 13, 1, 3, 14, 9, 5, 11, 5, 0, 5, 5],
         "spots_months_count" : [6, 4, 14, 13, 4, 12, 9, 5, 12, 12, 13, 6, 3, 8, 3, 10, 13, 13, 8, 0, 0, 3, 4, 6, 14, 9, 8, 12, 8, 4]
     },
-        {
+    {
         "id" : 2,
         "spots_name" : "渋谷駅タクシー乗り場",
         "spots_address" : "渋谷駅",
